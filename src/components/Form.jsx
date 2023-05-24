@@ -19,7 +19,13 @@ function Form() {
             <option>PS</option>
             <option>TI</option>
           </select>
-          <input type="text" className="form-control" id="documenttype" />
+        </div>
+
+        <div className="mb-3">
+          <label htmlFor="documentNumber" className="form-label">
+            Document Number
+          </label>
+          <input type="text" className="form-control" id="documentNumber" />
         </div>
 
         <div className="mb-3">
