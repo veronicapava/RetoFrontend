@@ -5,6 +5,7 @@ import Form from "./components/Form";
 import Header from './components/Header';
 import Home from './components/Home';
 import SearchPage from './components/SearchPage';
+import UsersList from './components/UserList';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/createUser" element={<Form />} />
         <Route path="/findUser" element={<SearchPage />} />
+        <Route path="/userList" element={<UsersList />} />
       </Routes>
     </BrowserRouter>
   );
